@@ -66,11 +66,6 @@ class people::riethmayer {
     target => "${dotfiles}/tmux.conf",
   }
 
-  file_line { 'dotfile_bashrc':
-    path => "${home}/.profile",
-    line => "source ${dotfiles}/bashrc",
-  }
-
   file { "${home}/bin":
     ensure => 'link',
     target => "${dotfiles}/bin",

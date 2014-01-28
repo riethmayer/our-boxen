@@ -52,6 +52,7 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "sysctl",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -75,6 +76,8 @@ github "skype",     "1.0.8"
 github "tmux",      "1.0.2"
 github "screenhero", "1.0.1"
 github "spotify",  "1.0.0"
+github "swig",     "1.0.0"
+github "pcre",     "1.0.0"
 github "vagrant", "3.0.4"
-github "virtualbox", "4.3.6"
+github "virtualbox", "1.0.10"
 github "packer", "1.0.3"
