@@ -2,14 +2,8 @@ class people::riethmayer {
   include emacs
   include tmux
   include iterm2::stable
-  include erlang
-  include heroku
-  include java
   include dropbox
-  include chrome
-  include firefox
   include graphviz
-  include imagemagick
   include propane
   include skype
 
@@ -75,5 +69,5 @@ class people::riethmayer {
     source  => 'riethmayer/emacs'
   }
 
-  include postgresql
+  include projects::bonusbox
 }
