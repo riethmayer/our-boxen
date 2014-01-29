@@ -4,6 +4,11 @@ GITHUBTARBALL
     chromedriver (0.0.1)
 
 GITHUBTARBALL
+  remote: bonusboxme/puppet-selenium
+  specs:
+    selenium (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
@@ -259,6 +264,7 @@ DEPENDENCIES
   riak (= 1.1.0)
   ruby (= 6.7.2)
   screenhero (= 1.0.1)
+  selenium (= 1.0.0)
   skype (= 1.0.8)
   spotify (= 1.0.0)
   stdlib (= 4.1.0)
