@@ -5,13 +5,16 @@ class projects::bonusbox {
   include erlang
   include heroku
   include redis
-  include chromedriver
   include java
   include chrome
   include firefox
   include rabbitmq
 
   package { 'qt':
+    ensure => present
+  }
+
+  package { 'chromedriver':
     ensure => present
   }
 
