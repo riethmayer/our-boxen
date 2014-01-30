@@ -9,4 +9,13 @@ class projects::bonusbox {
   include java
   include chrome
   include firefox
+
+  package { 'qt':
+    ensure => present
+  }
+
+  package { 'selenium-server-standalone':
+    ensure => present
+  }
+
 }
