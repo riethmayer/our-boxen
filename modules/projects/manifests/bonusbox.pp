@@ -9,6 +9,7 @@ class projects::bonusbox {
   include java
   include chrome
   include firefox
+  include rabbitmq
 
   package { 'qt':
     ensure => present
