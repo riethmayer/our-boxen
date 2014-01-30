@@ -5,7 +5,6 @@ class people::riethmayer {
   include dropbox
   include graphviz
   include propane
-  include skype
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/src"
