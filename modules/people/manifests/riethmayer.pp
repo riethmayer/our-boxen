@@ -69,4 +69,5 @@ class people::riethmayer {
   }
 
   include projects::bonusbox
+  include projects::bitools
 }
