@@ -6,6 +6,6 @@ class projects::bitools {
   include go
   go::version { '1.1.1': }
 
-  include go::1_1
+  include python
 
 }
