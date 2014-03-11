@@ -1,4 +1,4 @@
-class people::Niels {
+class people::Nielsvandeloo {
   include wget
 
   $home     = "/Users/${::luser}"
