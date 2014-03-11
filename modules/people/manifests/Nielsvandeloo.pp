@@ -1,4 +1,4 @@
-class people::Nielsvandeloo {
+class people::nielsvandeloo {
   include wget
 
   $home     = "/Users/${::luser}"
@@ -45,7 +45,7 @@ class people::Nielsvandeloo {
   }
 
   repository { $dotfiles:
-    source  => 'Nielsvandeloo/dotfiles',
+    source  => 'nielsvandeloo/dotfiles',
     require => File[$my]
   }
 
