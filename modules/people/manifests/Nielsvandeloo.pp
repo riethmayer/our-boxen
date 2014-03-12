@@ -45,8 +45,7 @@ class people::nielsvandeloo {
   }
 
   repository { $dotfiles:
-    source  => 'nielsvandeloo/dotfiles',
-    require => File[$my]
+    source  => 'nielsvandeloo/dotfiles'
   }
 
   file { "${home}/bin":
