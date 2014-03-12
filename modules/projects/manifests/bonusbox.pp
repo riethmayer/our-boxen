@@ -9,6 +9,7 @@ class projects::bonusbox {
   include chrome
   include firefox
   include rabbitmq
+  include python
 
   package { 'qt':
     ensure => present
@@ -20,6 +21,11 @@ class projects::bonusbox {
 
   package { 'selenium-server-standalone':
     ensure => present
+  }
+
+  package { 'awscli':
+    provider => pip,
+    ensure => installed
   }
 
 }
